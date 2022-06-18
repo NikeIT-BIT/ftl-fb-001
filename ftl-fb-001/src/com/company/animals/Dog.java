@@ -5,6 +5,14 @@ public class Dog extends Animal{
         super(name, weight);
     }
 
+    public static Dog[] randomArray(){
+        Dog[] dogs = new Dog[3];
+                dogs[0] = Dog.of("Sharik", 4);
+                dogs[1] = Dog.of("Tuzik", 3);
+                dogs[2] = Dog.of("Lesha", 5);
+                return dogs;
+    }
+
     public Dog() {
     }
 
@@ -27,5 +35,14 @@ public class Dog extends Animal{
     @Override
     public void voice() {
         System.out.println("Wow!");
+    }
+
+    @Override
+    public String toString() {
+        return "Dog{" +
+                "name='" + name + '\'' +
+                ", weight=" + weight +
+                ", correctPosition=" + correctPosition +
+                '}';
     }
 }
