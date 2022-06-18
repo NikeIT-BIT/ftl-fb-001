@@ -22,4 +22,9 @@ public class Cat extends Animal{
 
         return this.heightCf(this.weight);
     }
+
+    @Override
+    public void voice() {
+        System.out.println("Mey");
+    }
 }
