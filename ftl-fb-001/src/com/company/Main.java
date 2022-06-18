@@ -4,6 +4,7 @@ import com.company.L001.HelloWorld;
 import com.company.L002.POJO;
 import com.company.animals.Cat;
 import com.company.animals.Dog;
+import com.company.animals.Duck;
 
 public class Main {
     public static void main(String[] args) {
@@ -21,7 +22,16 @@ public class Main {
         Dog dog = new Dog();
         dog.goToStick(14);
         dog.whereDog();
-        Dog homelessdog = Dog.ofHomeless(100);
 
+        dog.voice();
+        Dog homelessdog = Dog.ofHomeless(100);
+        homelessdog.voice();
+
+        Duck duck = new Duck();
+        duck.voice();
+        duck.takeOff();
+        duck.isTheBirdFlying();
+        duck.landing();
+        duck.isTheBirdFlying();
     }
 }
