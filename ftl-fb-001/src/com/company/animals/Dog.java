@@ -1,16 +1,19 @@
 package com.company.animals;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Dog extends Animal{
     public Dog(String name, Integer weight) {
         super(name, weight);
     }
 
-    public static Dog[] randomArray(){
-        Dog[] dogs = new Dog[3];
-                dogs[0] = Dog.of("Sharik", 4);
-                dogs[1] = Dog.of("Tuzik", 3);
-                dogs[2] = Dog.of("Lesha", 5);
-                return dogs;
+    public static List<Dog> randomArray(){
+       List<Dog> dogs = new ArrayList<>();
+       dogs.add(Dog.of("Barsik", 4));
+       dogs.add(Dog.of("Tuzik", 3));
+       dogs.add(Dog.of("Lesha", 5));
+       return dogs;
     }
 
     public Dog() {
