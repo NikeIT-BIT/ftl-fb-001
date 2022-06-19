@@ -10,6 +10,7 @@ import com.company.animals.Duck;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Random;
 
 public class Main {
     public static void main(String[] args) {
@@ -54,8 +55,11 @@ public class Main {
              Dog.ofHomeless(4)
         });
         System.out.println(dogsHomless.size());
-        for(Dog dogItem : dogsHomless)
+        for(Dog dogItem : dogsHomless) {
             System.out.println(dogItem);
+            dogItem.setName(String.valueOf((new Random()).nextLong()));
+            System.out.println(dogItem.getName());
+        }
 
         List<Dog> dogsLinkedList = new LinkedList<>();
         dogsLinkedList.add(Dog.ofHomeless(10));
@@ -69,8 +73,8 @@ public class Main {
             System.out.println(dogsLinkedList.get(indexLinkedList));
             indexLinkedList++;
         }
-        for(int i = 0; i < 10; i++)
-            SwitchExample.run();
+//        for(int i = 0; i < 10; i++)
+//            SwitchExample.run();
     }
 
 }
