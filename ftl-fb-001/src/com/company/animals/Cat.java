@@ -4,9 +4,11 @@ public class Cat extends Animal{
 
     public Cat(String name, Integer weight) {
         super(name, weight);
+        this.canFly = true;
     }
 
     public Cat() {
+        super();
         this.canFly = false;
     }
 

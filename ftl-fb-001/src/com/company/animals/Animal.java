@@ -12,6 +12,7 @@ class Animal {
     }
 
     public Animal() {
+        this.canFly = true;
     }
 
     public void voice(){
