@@ -7,7 +7,6 @@ import com.company.animals.Cat;
 import com.company.animals.Dog;
 import com.company.animals.Duck;
 
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.List;
@@ -73,4 +72,5 @@ public class Main {
         for(int i = 0; i < 10; i++)
             SwitchExample.run();
     }
+
 }

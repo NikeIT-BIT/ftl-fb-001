@@ -17,6 +17,7 @@ public class Dog extends Animal{
     }
 
     public Dog() {
+        this.canFly = false;
     }
 
     public void goToStick(Integer stickPosition){
