@@ -19,4 +19,12 @@ public class Bird extends Animal{
                 this.flyModActive == true ? "Flying":"Landing"
         );
     }
+
+    public boolean isFlyModActive() {
+        return flyModActive;
+    }
+
+    public void setFlyModActive(boolean flyModActive) {
+        this.flyModActive = flyModActive;
+    }
 }
