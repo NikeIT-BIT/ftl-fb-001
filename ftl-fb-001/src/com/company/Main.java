@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.L001.HelloWorld;
 import com.company.L002.POJO;
+import com.company.L013.SwitchExample;
 import com.company.animals.Cat;
 import com.company.animals.Dog;
 import com.company.animals.Duck;
@@ -69,5 +70,7 @@ public class Main {
             System.out.println(dogsLinkedList.get(indexLinkedList));
             indexLinkedList++;
         }
+        for(int i = 0; i < 10; i++)
+            SwitchExample.run();
     }
 }
