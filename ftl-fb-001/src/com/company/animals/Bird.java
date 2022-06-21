@@ -8,10 +8,10 @@ public class Bird extends Animal{
         this.canFly = true;
     }
 
-    public void takeOff(){
+    public final void takeOff(){
         flyModActive = true;
     }
-    public void landing(){
+    public final void landing(){
         flyModActive = false;
     }
     public void isTheBirdFlying(){
