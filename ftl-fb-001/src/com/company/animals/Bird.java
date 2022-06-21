@@ -4,8 +4,7 @@ public class Bird extends Animal{
 
     protected boolean flyModActive = false;
     public Bird(){
-        super();
-        this.canFly = true;
+        super(MoveType.FLY);
     }
 
     public final void takeOff(){

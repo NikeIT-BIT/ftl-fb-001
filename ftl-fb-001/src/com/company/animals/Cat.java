@@ -3,13 +3,11 @@ package com.company.animals;
 public class Cat extends Animal{
 
     public Cat(String name, Integer weight) {
-        super(name, weight);
-        this.canFly = true;
+        super(name, weight, MoveType.WALK);
     }
 
     public Cat() {
-        super();
-        this.canFly = false;
+        super(MoveType.WALK);
     }
 
     private Integer heightCf(Integer weight){
