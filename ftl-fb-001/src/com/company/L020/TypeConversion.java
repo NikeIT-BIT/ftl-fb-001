@@ -26,20 +26,20 @@ public class TypeConversion {
     private static void runStringToInt(){
         String str = "123";
 
-        Integer in1 = new Integer(str);
+//        Integer in1 = new Integer(str);
         Integer in2 = Integer.valueOf(str);
-        int in3 = Integer.parseInt();
+        int in3 = Integer.parseInt(str);
 
     }
 
     private static void runStringToDouble(){
-        Double d1 = new Double("1.123");
+//        Double d1 = new Double("1.123");
         Double d2 = Double.valueOf("12.7e10");
-        double d3 = Double.parseDouble("4.4")
+        double d3 = Double.parseDouble("4.4");
     }
 
     private static void runStringToBoolean(){
-        Boolean b1 = Boolean.valueOf("true")
+        Boolean b1 = Boolean.valueOf("true");
 
     }
     public static void run(){

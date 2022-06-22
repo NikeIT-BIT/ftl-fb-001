@@ -1,18 +1,22 @@
 package com.company.animals;
 
-public class Bird extends Animal{
+public class Bird extends Animal implements Flight{
 
     protected boolean flyModActive = false;
     public Bird(){
         super(MoveType.FLY);
     }
 
-    public final void takeOff(){
-        flyModActive = true;
+    @Override
+    public void takeoff() {
+        this.flyModActive = true;
     }
-    public final void landing(){
-        flyModActive = false;
+
+    @Override
+    public void landing() {
+        this.flyModActive = false;
     }
+
     public void isTheBirdFlying(){
         System.out.println(
                 this.flyModActive == true ? "Flying":"Landing"
