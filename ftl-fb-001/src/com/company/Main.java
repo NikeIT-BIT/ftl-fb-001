@@ -3,6 +3,7 @@ package com.company;
 import com.company.L001.HelloWorld;
 import com.company.L002.POJO;
 import com.company.L013.SwitchExample;
+import com.company.L019.StringExample;
 import com.company.animals.Cat;
 import com.company.animals.Dog;
 import com.company.animals.Duck;
@@ -14,6 +15,7 @@ import java.util.List;
 import java.util.Random;
 
 public class Main {
+    
     public static void main(String[] args) {
 //        HelloWorld.run();
 //        POJO.run();
@@ -81,6 +83,7 @@ public class Main {
 
         if(dog.getMoveType() == MoveType.WALK)
             System.out.println("Может ходить");
-    }
+        StringExample.run();
 
+    }
 }
