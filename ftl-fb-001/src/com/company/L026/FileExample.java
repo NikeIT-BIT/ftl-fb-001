@@ -29,7 +29,7 @@ public class FileExample  {
 
     }
 
-    public static String readFile(String path) throws FileNotFoundException {
+    public static String readFile(String path) throws IOException {
         File file = new File(path);
         FileReader fileReader = new FileReader(file);
         Scanner scanner = new Scanner(fileReader);
