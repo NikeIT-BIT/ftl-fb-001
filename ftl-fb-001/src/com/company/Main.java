@@ -50,6 +50,7 @@ public class Main {
           System.out.println(dogs.get(i));
 
 
+
         List<Dog> dogsHomless = Arrays.asList(new Dog[]{
              Dog.ofHomeless(new Animal.AnimalWeight(2, Animal.AnimalWeight.WeightType.KG)),
              Dog.ofHomeless(new Animal.AnimalWeight(3, Animal.AnimalWeight.WeightType.KG)),
@@ -83,6 +84,15 @@ public class Main {
             System.out.println("Может ходить");
         StringExample.run();
         TypeConversion.run();
+
+        dog.setWeight(new Animal.AnimalWeight(10, Animal.AnimalWeight.WeightType.KG));
+        try {
+            dog.getWeight().setValue(-5);
+        }catch (Animal.WeightExeption ignore) {
+
+        }
+
+
 
     }
 }
