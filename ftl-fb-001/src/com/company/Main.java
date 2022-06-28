@@ -10,6 +10,7 @@ import com.company.L027.ThreadExample;
 import com.company.L028.House;
 import com.company.T001.PrintNumbers;
 import com.company.T002.PrintNumbersMirror;
+import com.company.T003.PrintNumbersMultiplierThree;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -117,6 +118,7 @@ public class Main {
         // Independent work
         PrintNumbers.run();
         PrintNumbersMirror.run();
+        PrintNumbersMultiplierThree.run();
 
 
     }
