@@ -12,6 +12,7 @@ import com.company.T001.PrintNumbers;
 import com.company.T002.PrintNumbersMirror;
 import com.company.T003.PrintNumbersMultiplierThree;
 import com.company.T004.PrintNumberDoUsers;
+import com.company.T005.PrintNumbersMultiplierSeven;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -120,7 +121,8 @@ public class Main {
 //        PrintNumbers.run();
 //        PrintNumbersMirror.run();
 //        PrintNumbersMultiplierThree.run();
-        PrintNumberDoUsers.run();
+//        PrintNumberDoUsers.run();
+        PrintNumbersMultiplierSeven.run();
 
 
     }
