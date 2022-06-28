@@ -1,5 +1,7 @@
 package com.company.T003;
 
+import java.util.Scanner;
+
 public class PrintNumbersMultiplierThree {
 
     private static void runPrintNumbers(){
