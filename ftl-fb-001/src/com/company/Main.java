@@ -11,6 +11,7 @@ import com.company.L028.House;
 import com.company.T001.PrintNumbers;
 import com.company.T002.PrintNumbersMirror;
 import com.company.T003.PrintNumbersMultiplierThree;
+import com.company.T004.PrintNumberDoUsers;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -116,9 +117,10 @@ public class Main {
 //        System.out.println(fullHouse.toString());
 
         // Independent work
-        PrintNumbers.run();
-        PrintNumbersMirror.run();
-        PrintNumbersMultiplierThree.run();
+//        PrintNumbers.run();
+//        PrintNumbersMirror.run();
+//        PrintNumbersMultiplierThree.run();
+        PrintNumberDoUsers.run();
 
 
     }
