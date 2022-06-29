@@ -14,6 +14,7 @@ import com.company.T003.PrintNumbersMultiplierThree;
 import com.company.T004.PrintNumberDoUsers;
 import com.company.T005.PrintNumbersMultiplierSeven;
 import com.company.T006.PrintNumbersDegreeTwo;
+import com.company.T007.Asterisks;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -124,7 +125,8 @@ public class Main {
 //        PrintNumbersMultiplierThree.run();
 //        PrintNumberDoUsers.run();
 //        PrintNumbersMultiplierSeven.run();
-        PrintNumbersDegreeTwo.run();
+//        PrintNumbersDegreeTwo.run();
+        Asterisks.run();
 
 
     }
