@@ -19,6 +19,7 @@ import com.company.T008.FibonacciNumbers;
 import com.company.T009.Riddle;
 import com.company.T010.WorkToArray;
 import com.company.T011.BubbleSorting;
+import com.company.T012.PrimeNumbers;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -134,7 +135,8 @@ public class Main {
 //        FibonacciNumbers.run();
 //        Riddle.run();
 //        WorkToArray.run();
-        BubbleSorting.run();
+//        BubbleSorting.run();
+        PrimeNumbers.run();
 
 
     }
