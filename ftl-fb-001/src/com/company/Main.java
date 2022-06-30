@@ -16,6 +16,7 @@ import com.company.T005.PrintNumbersMultiplierSeven;
 import com.company.T006.PrintNumbersDegreeTwo;
 import com.company.T007.Asterisks;
 import com.company.T008.FibonacciNumbers;
+import com.company.T009.Riddle;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -128,7 +129,8 @@ public class Main {
 //        PrintNumbersMultiplierSeven.run();
 //        PrintNumbersDegreeTwo.run();
 //        Asterisks.run();
-        FibonacciNumbers.run();
+//        FibonacciNumbers.run();
+        Riddle.run();
 
 
     }
