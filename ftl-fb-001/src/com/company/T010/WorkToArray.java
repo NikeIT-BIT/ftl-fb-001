@@ -4,7 +4,6 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class WorkToArray {
-
     private static double generate(){
         Integer random = (int) (Math.random() * 100);
         return (double)random/100;
@@ -55,6 +54,5 @@ public class WorkToArray {
         runPrintMin(array);
         runPrintMax(array);
         runPrintAverage(array);
-
     }
 }
