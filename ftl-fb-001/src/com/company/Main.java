@@ -17,6 +17,7 @@ import com.company.T006.PrintNumbersDegreeTwo;
 import com.company.T007.Asterisks;
 import com.company.T008.FibonacciNumbers;
 import com.company.T009.Riddle;
+import com.company.T010.WorkToArray;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -130,7 +131,8 @@ public class Main {
 //        PrintNumbersDegreeTwo.run();
 //        Asterisks.run();
 //        FibonacciNumbers.run();
-        Riddle.run();
+//        Riddle.run();
+        WorkToArray.run();
 
 
     }
