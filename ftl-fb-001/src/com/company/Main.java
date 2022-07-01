@@ -20,6 +20,7 @@ import com.company.T009.Riddle;
 import com.company.T010.WorkToArray;
 import com.company.T011.BubbleSorting;
 import com.company.T012.PrimeNumbers;
+import com.company.T013.DeleteACell;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -136,7 +137,8 @@ public class Main {
 //        Riddle.run();
 //        WorkToArray.run();
 //        BubbleSorting.run();
-        PrimeNumbers.run();
+//        PrimeNumbers.run();
+        DeleteACell.run();
 
 
     }
