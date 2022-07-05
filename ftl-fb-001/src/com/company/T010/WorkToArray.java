@@ -10,7 +10,7 @@ public class WorkToArray {
     }
 
     private static List <Double> createArray(){
-        List<Double> array = new LinkedList<>();
+        List <Double> array = new LinkedList<>();
         for(int i = 0; i < 10; i++)
             array.add(generate());
         return array;
