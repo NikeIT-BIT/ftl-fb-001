@@ -21,6 +21,8 @@ import com.company.T010.WorkToArray;
 import com.company.T011.BubbleSorting;
 import com.company.T012.PrimeNumbers;
 import com.company.T013.DeleteACell;
+import com.company.T014.RunVector;
+import com.company.T014.VectorInSpace;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -138,7 +140,8 @@ public class Main {
 //        WorkToArray.run();
 //        BubbleSorting.run();
 //        PrimeNumbers.run();
-        DeleteACell.run();
+//        DeleteACell.run();
+        RunVector.run();
 
 
     }
