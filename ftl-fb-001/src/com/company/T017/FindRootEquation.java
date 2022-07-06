@@ -21,7 +21,8 @@ public class FindRootEquation {
     }
 
     public static void run() {
-        System.out.println(rootEquation(0.0d, 10.0d));
+        System.out.printf("%.4f", rootEquation(0.0d, 10.0d));
+        System.out.println();
     }
 
 }
