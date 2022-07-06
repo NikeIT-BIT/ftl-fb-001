@@ -24,6 +24,7 @@ import com.company.T013.DeleteACell;
 import com.company.T014.RunVector;
 import com.company.T014.VectorInSpace;
 import com.company.T015.RunArrayValuesAndWeights;
+import com.company.T016.SearchingArrayElement;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -143,7 +144,8 @@ public class Main {
 //        PrimeNumbers.run();
 //        DeleteACell.run();
 //        RunVector.run();
-        RunArrayValuesAndWeights.run();
+//        RunArrayValuesAndWeights.run();
+        SearchingArrayElement.run();
 
     }
 }
