@@ -25,6 +25,7 @@ import com.company.T014.RunVector;
 import com.company.T014.VectorInSpace;
 import com.company.T015.RunArrayValuesAndWeights;
 import com.company.T016.SearchingArrayElement;
+import com.company.T017.FindRootEquation;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -145,7 +146,8 @@ public class Main {
 //        DeleteACell.run();
 //        RunVector.run();
 //        RunArrayValuesAndWeights.run();
-        SearchingArrayElement.run();
+//        SearchingArrayElement.run();
+        FindRootEquation.run();
 
     }
 }
