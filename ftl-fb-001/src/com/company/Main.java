@@ -26,6 +26,7 @@ import com.company.T014.VectorInSpace;
 import com.company.T015.RunArrayValuesAndWeights;
 import com.company.T016.SearchingArrayElement;
 import com.company.T017.FindRootEquation;
+import com.company.T019.RunHierarchy;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -147,7 +148,8 @@ public class Main {
 //        RunVector.run();
 //        RunArrayValuesAndWeights.run();
 //        SearchingArrayElement.run();
-        FindRootEquation.run();
+//        FindRootEquation.run();
+        RunHierarchy.run();
 
     }
 }
