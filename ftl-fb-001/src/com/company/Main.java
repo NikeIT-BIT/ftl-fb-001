@@ -28,6 +28,7 @@ import com.company.T016.SearchingArrayElement;
 import com.company.T017.FindRootEquation;
 import com.company.T019.RunHierarchy;
 import com.company.T021.FrequencyDictionary;
+import com.company.T022.RunConvert;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -144,14 +145,15 @@ public class Main {
 //        Riddle.run();
 //        WorkToArray.run();
 //        BubbleSorting.run();
-//        PrimeNumbers.run();
+//        PrimeNumbers.run();1
 //        DeleteACell.run();
 //        RunVector.run();
 //        RunArrayValuesAndWeights.run();
 //        SearchingArrayElement.run();
 //        FindRootEquation.run();
 //        RunHierarchy.run();
-        FrequencyDictionary.run();
+//        FrequencyDictionary.run();
+        RunConvert.run();
 
     }
 }
