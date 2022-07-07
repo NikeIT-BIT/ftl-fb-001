@@ -27,6 +27,7 @@ import com.company.T015.RunArrayValuesAndWeights;
 import com.company.T016.SearchingArrayElement;
 import com.company.T017.FindRootEquation;
 import com.company.T019.RunHierarchy;
+import com.company.T021.FrequencyDictionary;
 import com.company.animals.*;
 
 import java.io.IOException;
@@ -149,7 +150,8 @@ public class Main {
 //        RunArrayValuesAndWeights.run();
 //        SearchingArrayElement.run();
 //        FindRootEquation.run();
-        RunHierarchy.run();
+//        RunHierarchy.run();
+        FrequencyDictionary.run();
 
     }
 }
